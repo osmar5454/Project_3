@@ -31,6 +31,7 @@ class MyHomePage extends StatefulWidget {
 
 }
 
+
 class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateMixin {
 
   //-------------------------------Funcion para obtener colores -------------------------------
@@ -116,7 +117,7 @@ Widget itemCard(String title , String imgPath , bool isFavorite){
                 Row(
                   children: <Widget>[
                     Text(title , style: TextStyle(fontFamily: 'Merriweather' , fontSize: 20.0 ,fontWeight: FontWeight.w600 ,  ),),
-                    SizedBox(width: 45.0,),
+                    SizedBox(width: 40.0,),
                     Material(
                       
                       color: Colors.transparent,
@@ -143,7 +144,7 @@ Widget itemCard(String title , String imgPath , bool isFavorite){
                 ),
                 //---------------------------------------------------------------
 
-                SizedBox(height:10.0,),
+                SizedBox(height:7.0,),
                 Container(
                   width: 200.0,
                   child: Text(
@@ -152,14 +153,14 @@ Widget itemCard(String title , String imgPath , bool isFavorite){
                     style: TextStyle(
                         color: Colors.grey,
                         fontFamily: 'Merriweather',
-                        fontSize: 12.0,
+                        fontSize: 11.0,
                         fontWeight: FontWeight.w300
                     ),
                   ),
                 ),
 
                 //---------------------------Parte de abajo ----------------------------
-                SizedBox(height: 5.0),
+                SizedBox(height: 8.0),
                 Row(
                   children: <Widget>[
                     SizedBox(width: 35.0),
